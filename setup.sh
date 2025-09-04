@@ -10,7 +10,8 @@
 #/cf login -a https://api.cf.us10-001.hana.ondemand.com
 
 
-./cf push app_cf --docker-image uncleluo/mous:latest -m 512M --health-check-type port
+#./cf push app_cf --docker-image uncleluo/mous:latest -m 512M --health-check-type port
+./cf push app_cf --docker-image ghcr.io/uncleluogithub/mous:latest -m 512M --health-check-type port
 
 ./cf set-env app_cf UUID 7bd57098-82bd-4dfa-b32c-9943a52d354f
 
