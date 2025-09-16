@@ -34,3 +34,5 @@
 ./cf set-health-check app_cf port
 ./cf start app_cf
 ./cf logs app_cf –recent
+
+# or https://kjgx668.blogspot.com/2025/09/cloud-foundry-vpn-dpdns.html
