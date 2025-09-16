@@ -9,7 +9,7 @@
 
 ./cf login -a https://api.cf.ap21.hana.ondemand.com
 
-#/cf login -a https://api.cf.us10-001.hana.ondemand.com
+#./cf login -a https://api.cf.us10-001.hana.ondemand.com
 
 
 #./cf push app_cf --docker-image uncleluo/mous:latest -m 512M --health-check-type port
@@ -36,3 +36,4 @@
 ./cf logs app_cf –recent
 
 # or https://kjgx668.blogspot.com/2025/09/cloud-foundry-vpn-dpdns.html
+#    https://www.youtube.com/watch?v=w-j8yPE2fKg
