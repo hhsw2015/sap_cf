@@ -4,6 +4,8 @@
 # • BTP Trial sign-up: https://www.sap.com/products/technolo...
 # • Cloud Foundry CLI download: https://github.com/cloudfoundry/cli
 # • UUID generator: https://www.uuidgenerator.net
+# • Mail https://mail.cx/zh/
+# • SMS https://lubansms.com
 
 ./cf login -a https://api.cf.ap21.hana.ondemand.com
 
